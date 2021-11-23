@@ -28,3 +28,18 @@ class Dimmer extends LightSwitch{
             System.out.println("Lights are off.");
     }
 }
+
+class Utils{
+    private int width;
+    private int lenght;
+
+    static void printTitle(){
+        System.out.println("*******");
+        System.out.println("* OOP *");
+        System.out.println("*******");
+    }
+
+    static int areaCalc(int width, int lenght){
+        return width * lenght;
+    }
+}
